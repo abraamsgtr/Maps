@@ -37,6 +37,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
         map.setRegion(region, animated: true)
         
+        //hard
+        
         let annotation = MKPointAnnotation()
         
         annotation.title = "My House"
